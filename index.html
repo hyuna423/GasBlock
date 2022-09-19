@@ -37,67 +37,140 @@
 
 <body>
 
-
   <header>
 
-    <div class="">
+    <div class="hd_all">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1><img src="img/gasblock_logo.png" alt="logo"></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_wrap">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="home" class="scroll">Home</a></li>
+          <li><a href="about" class="scroll">About</a></li>
+          <li><a href="coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
       </nav>
 
 
-      <!--반응형-->
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
 
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
-      </div>
-
-      <nav class="">
-
+      <nav class="wrapper">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="home" class="scroll">Home</a></li>
+          <li><a href="about" class="scroll">About</a></li>
+          <li><a href="coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
 
       </nav>
-
-      <!--반응형 js-->
-      <script type="text/javascript">
-        $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
-          });
-        });
-
-      </script>
 
     </div>
 
   </header>
 
+
+  <main>
+
+    
+    <section id="home">
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="main_area container">
+        <div class="main_txt">
+          <h2 class="">GasBlock</h2>
+          <b>블록체인을 통해 확보된 안전성,수익성을 통해<br>
+            셰일가스 글로벌 유통망을 혁신합니다.
+          </b>
+          
+          <p>
+            가스 (GAS)와 블록체인(Blokchain)의 합성어로서 블록체인의 투명성, 안전성,<br>
+            효율성을 셰일가스의 채취와 상업화 과정 전반에 도입하여, 가스 유통 및 채취의 <br>
+            효율성과 수익성을 극대화 할 목표를 가지고 있습니다. 
+          </p>
+
+        </div>
+
+        <div class="down_area">
+          <button>
+            <a href="GasBlock white paper Ver.01- Kor.pdf"> WhitePaper<i class="xi-paper"></i></a>
+          </button>
+          <button class="btn_wallet"><a href=""> Wallet<i class="xi-wallet"></i></a></button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="con_area container">
+        <div class="con_left">
+          <h4>Get In Touch With Us</h4>
+          <ul class="info_area">          
+              <li>
+                <i class="xi-network-company"></i>              
+              <p>어쩌구</p>        
+              </li>
+              <li>
+                <i class="xi-call"></i>
+                <p>저쩌구</p>
+              </li>
+
+              <li>
+                <i class="xi-profile-o"></i>
+              <p>히히</p>                   
+              </li>
+        
+            </ul>
+
+          <h5>Send messege</h5>
+          <form class="gform"
+            action=""
+            data-email="contact@semicon1.net" method="">
+            <input type="email" value placeholder="E-mail" class="email" required style="color: #fff;">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" value="SEND" class="send">
+          </form>
+        </div>
+        <div class="con_right">
+          <img src="img/gasblock_logoww.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+<div class="footer_area container">
+      <h1><img src="img/gasblock_logo.png" alt="logo"></h1>
+      <div class="white_pp">
+        <h5>Whitepaper</h5>
+        <button><a href="">Ko.ver</a> </button>
+        <button><a href="">Eng.ver</a></button>
+      </div>
+      <div class="sns">
+        <h5>SNS</h5>
+        <a href=""><i class="xi-telegram"></i></a>
+        <a href=""><i class="xi-kakaotalk"></i></a>  
+      </div>
+  
+</div>
+  </footer>
 
 
 
