@@ -7,12 +7,79 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    #intro1{
+      padding:100px 0 130px;
+    }
+
+    .intro1_img::after{
+      width: 70%;
+      height: 70%;
+      bottom:0%;
+    }
+
+    .int1_cont_box{
+      width: 49%;
+      margin-bottom: 2%;
+    }
+
+    /*intro2*/
+
+    .int2_contents_wrap{
+      display: block;
+    }
+
+    .int2_blck_box{
+      text-align: center;
+    }
+
+    .int2_cont_left{
+      width: 100%;
+      margin-top:0%;
+      margin-bottom: 5%;
+    }
+
+    .int2_cont_right{
+      width: 100%;
+    }
+
+
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+    #intro1{
+      padding: 120px 0 500px;
+    }
+
+    .intro1_contents h4{
+      margin-bottom: 6%;
+    }
+
+    .int1_cont_box p, .intro1_contents h4{
+      font-size: 0.9em;
+    }
+
+    .int1_cont_left{
+      width: 100%;
+    }
+
+
+    .intro1_img::after{
+      width: 100%;
+      height: 43%;
+
+    }  
+
+    /*intro2*/
+
+    .int2_cont_left b, .int2_cont_left p{
+      font-size: 0.9em;
+    }
 }
 
 
@@ -21,6 +88,9 @@
 
 @media screen and (max-width:767px) {
 
+  .int2_blck_box{
+    padding: 3% 1%;
+  }
 }
 
 
@@ -29,6 +99,65 @@
 
 @media screen and (max-width:576px) {
 
+  #intro1{
+    padding: 120px 0 250px;
+  }
+
+  .int1_cont_box_up{
+    display: block;
+  }
+
+  .int1_cont_box_down{
+    display: block;
+  }
+
+  .int1_cont_box{
+    width: 100%;
+  }
+
+  .int1_cont_box3, .int1_cont_box4{
+    margin-bottom: 4% !important;
+  }
+
+  .int1_cont_box{
+    margin-bottom: 4%;
+    padding: 8% 2%;
+  }
+
+  
+  .intro1_img::after{
+    height: 23%;
+  } 
+
+  .int1_cont_box_icon img{
+    max-width: 20%;
+  }
+
+  
+  .intro1_contents h4{
+    margin-bottom: 12%;
+  }
+
+
+  /*intro2*/
+
+  #intro2{
+    padding: 80px 0;
+  }
+
+  .need{
+    display: block !important;
+  }
+
+  .int2_cont_left br{
+    display: none;
+  }
+
+  .int2_contents_wrap b{
+    display: inline-block;
+    margin-bottom: 7%;
+  }
+
 }
 
 
@@ -36,7 +165,9 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
-
+    #intro1{
+        padding: 70px 0 250px;
+      }
 }
 
 

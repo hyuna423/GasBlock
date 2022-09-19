@@ -3,3 +3,22 @@
     address{font-style:normal;}
 
 
+.need{
+    display: block;
+}
+
+.need2{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    .int1_cont_box p br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px){
+    .need2{
+        display: block;
+    }
+}
