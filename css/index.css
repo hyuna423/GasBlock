@@ -176,5 +176,5 @@ h3 {
 }
 
 .need{
-  display: none;
+  display: none !important;
 }
