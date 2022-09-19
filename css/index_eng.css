@@ -4,7 +4,7 @@
 
 
 .need{
-    display: block;
+    display: block !important;
 }
 
 .need2{
@@ -19,6 +19,6 @@
 
 @media screen and (max-width:991px){
     .need2{
-        display: block;
+    display: block !important;
     }
 }
