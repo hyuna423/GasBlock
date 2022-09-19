@@ -75,6 +75,12 @@
 
     }  
 
+    @keyframes move{
+      100%{
+        bottom: -1%;
+      }
+    }
+
     /*intro2*/
 
     .int2_cont_left b, .int2_cont_left p{
