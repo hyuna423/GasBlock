@@ -140,6 +140,7 @@ h3 {
   padding: 100px;
   background: url(../img/int2_bg.png) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .intro2_wrap{
