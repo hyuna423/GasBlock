@@ -1,17 +1,135 @@
-*{margin:0; padding:0; box-sizing:border-box;}
-    a{text-decoration : none;}
-    address{font-style:normal;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
 
 
-
-h3{
+h3 {
   font-size: 2.5em;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #E67927;
+  background: linear-gradient(to right, #FF005B, #FFE53B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media (min-width:1521px) {
+  .container {
+    max-width: 1521px;
+  }
 }
 
 
 
 
 /*헤더*/
+
+/* Intro3 */
+#intro3{
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+#intro3 .intro3_bg{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#intro3 .intro3_bg::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/intro3_bg.png")no-repeat center;
+}
+#intro3 .intro3_wrap{
+  width: 100%;
+}
+#intro3 .intro3_wrap h5{
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 3%;
+}
+#intro3 .intro3_wrap .intro3_contents{
+  max-width: 1029px;
+  margin: 0 auto 5%;
+  color: #fff;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_cont_up,#intro3 .intro3_wrap .intro3_contents .int3_cont_down{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.int3_box{
+  width: 45%;
+  padding: 6%;
+  background: radial-gradient(66.22% 687.85% at 50% 120%, #1F1F1F 0%, rgba(65, 61, 61, 0.87) 100%);
+  box-shadow: 0px 0px 20px rgba(193, 181, 181, 0.25);
+  position: relative;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_cont_up .int3_box p,#intro3 .intro3_wrap .intro3_contents .int3_cont_down .int3_box p{
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#intro3 .intro3_wrap .int3_img{
+  width: 100%;
+}
+#intro3 .intro3_wrap .int3_img img{
+  width: 70%;
+}
+
+/* roadmap */
+#roadmap{
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  background: #1f1f1f url("../img/roadmap_bg.png")no-repeat;
+}
+#roadmap .roadmap_wrap{
+  width: 100%;
+}
+#roadmap .roadmap_wrap .roadmap_box{
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box{
+  width: 30%;
+  height: 460px;
+  margin-top: 5%;
+  text-align: left;
+  border-radius: 0px 100px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 107, 199, 0.6) 100%);
+  box-shadow: 0 0 20px #29769E;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box h4{
+  padding: 15% 6% 10% 10%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box p{
+  padding: 0 5% 5% 10%;
+}
