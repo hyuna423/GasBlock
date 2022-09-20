@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/moblie.css">
-  <link rel="stylesheet" href="css/index_eng.css">
 
   <!--favicon--->
   <link href="img/favicon.ico" rel="icon">
@@ -43,20 +42,20 @@
 
       <hgroup>
 
-        <h1><img src="img/gasblock_logo.png" alt="logo"></h1>
+        <h1><a href="index.html"><img src="img/gasblock_logo.png" alt="logo"></a></h1>
 
       </hgroup>
 
 
-      <nav class="pc_wrap">
+      <nav class="pc_wrap strip colour-5">
         <ul>
 
-          <li><a href="home" class="scroll">Home</a></li>
-          <li><a href="about" class="scroll">About</a></li>
-          <li><a href="coin" class="scroll">GasBlock Coin</a></li>
-          <li><a href="roadmap" class="scroll">Roadmap</a></li>
-          <li><a href="contact" class="scroll">Contact</a></li>
-          <li><a href="index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="lansite"><a href="index_eng.html">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
       </nav>
@@ -69,12 +68,12 @@
       <nav class="wrapper">
         <ul>
 
-          <li><a href="home" class="scroll">Home</a></li>
-          <li><a href="about" class="scroll">About</a></li>
-          <li><a href="coin" class="scroll">GasBlock Coin</a></li>
-          <li><a href="roadmap" class="scroll">Roadmap</a></li>
-          <li><a href="contact" class="scroll">Contact</a></li>
-          <li><a href="index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="#index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
 
@@ -87,7 +86,7 @@
 
   <main>
 
-    
+
     <section id="home">
       <div class="main_vid">
         <video autoplay="" muted="" loop="" playsinline="">
@@ -96,15 +95,15 @@
       </div>
       <div class="main_area container">
         <div class="main_txt">
-          <h2 class="">GasBlock</h2>
+          <h2 class="text-flicker-in-glow">GasBlock</h2>
           <b>블록체인을 통해 확보된 안전성,수익성을 통해<br>
             셰일가스 글로벌 유통망을 혁신합니다.
           </b>
-          
+
           <p>
             가스 (GAS)와 블록체인(Blokchain)의 합성어로서 블록체인의 투명성, 안전성,<br>
             효율성을 셰일가스의 채취와 상업화 과정 전반에 도입하여, 가스 유통 및 채취의 <br>
-            효율성과 수익성을 극대화 할 목표를 가지고 있습니다. 
+            효율성과 수익성을 극대화 할 목표를 가지고 있습니다.
           </p>
 
         </div>
@@ -120,30 +119,27 @@
 
 
     <section id="contact">
-      <div class="con_area container">
+      <div class="con_area  container" data-aos="fade-right">
         <div class="con_left">
           <h4>Get In Touch With Us</h4>
-          <ul class="info_area">          
-              <li>
-                <i class="xi-network-company"></i>              
-              <p>어쩌구</p>        
-              </li>
-              <li>
-                <i class="xi-call"></i>
-                <p>저쩌구</p>
-              </li>
+          <ul class="info_area">
+            <li>
+              <i class="xi-network-company"></i>
+              <p></p>
+            </li>
+            <li>
+              <i class="xi-call"></i>
+              <p></p>
+            </li>
 
-              <li>
-                <i class="xi-profile-o"></i>
-              <p>히히</p>                   
-              </li>
-        
-            </ul>
+            <li>
+              <i class="xi-profile-o"></i>
+              <p></p>
+            </li>
+          </ul>
 
           <h5>Send messege</h5>
-          <form class="gform"
-            action=""
-            data-email="contact@semicon1.net" method="">
+          <form class="gform" action="" data-email="contact@semicon1.net" method="">
             <input type="email" value placeholder="E-mail" class="email" required style="color: #fff;">
             <textarea name="message" id="message" placeholder="Message"></textarea>
             <input type="submit" value="SEND" class="send">
@@ -156,7 +152,7 @@
     </section>
   </main>
   <footer>
-<div class="footer_area container">
+    <div class="footer_area container">
       <h1><img src="img/gasblock_logo.png" alt="logo"></h1>
       <div class="white_pp">
         <h5>Whitepaper</h5>
@@ -166,13 +162,15 @@
       <div class="sns">
         <h5>SNS</h5>
         <a href=""><i class="xi-telegram"></i></a>
-        <a href=""><i class="xi-kakaotalk"></i></a>  
+        <a href=""><i class="xi-kakaotalk"></i></a>
       </div>
-  
-</div>
+
+    </div>
   </footer>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

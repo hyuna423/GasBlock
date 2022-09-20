@@ -3,3 +3,28 @@
     address{font-style:normal;}
 
 
+#home .main_area .main_txt{
+    width:50%;
+}
+
+
+
+@media screen and (max-width:1440px) {
+
+
+#home .main_area .main_txt {
+    width: 90%;
+}
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+
+    #home .main_area .main_txt {
+        width: 100%;
+    }
+    
+    }

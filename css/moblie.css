@@ -1,25 +1,121 @@
-
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  header .hd_all .pc_wrap ul {
+    width: 90%;
+  }
+
+  #home .main_vid video {
+    left: -13%;
+    height: 100%;
+    width: auto;
+  }
+
+  #home .main_area .down_area button {
+    width: 50%;
+  }
+
+  #home .main_area .main_txt b {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 2px rgb(41 41 41);
+  }
+
+  footer .footer_area .white_pp {
+    width: 50%;
+  }
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  #home .main_area h2 {
+    color: #00F3FF;
+    font-size: 7rem;
+  }
+
+  nav.pc_wrap {
+    display: none;
+  }
+
+  .hd_all .menu-btn {
+    display: block;
+  }
+
+  #home .main_area {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  #home .main_area .main_txt {
+    width: 100%;
+  }
+
+  #home .main_area .down_area {
+    width: 90%;
+  }
+
+  #contact .con_area .con_left {
+    padding: 30px 40px;
+  }
+
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  #contact .con_area {
+    flex-direction: column;
+  }
+
+  #contact .con_area .con_left {
+    width: 90%;
+  }
+
+
+  #contact .con_area .con_right {
+    width: 100%;
+  }
 }
-
-
 
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  #home .main_area .main_txt b {
+    font-size: 1.6rem;
+  }
+
+  #home .main_area .main_txt p br {
+    display: none;
+  }
+
+  #home .main_area .down_area {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home .main_area .down_area button {
+    width: 80%;
+  }
+
+  #home .main_area .down_area button:first-child {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+
+  #contact .con_area .info_area {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #contact .con_area .info_area li {
+    margin-bottom: 10px;
+  }
 
 }
 
@@ -28,6 +124,46 @@
 
 
 @media screen and (max-width:576px) {
+  #home .main_area h2 {
+    font-size: 5rem;
+  }
+
+  #home .main_area {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 60%;
+}
+
+  #home .main_area .main_txt b {
+    font-size: 1.3rem;
+  }
+
+  #home .main_area .down_area button {
+    padding: 10px 0;
+  }
+
+
+
+  #contact .con_area {
+    width: 90%;
+  
+  }
+
+  #contact .con_area .con_left {
+    width: 100%;
+  }
+
+  #contact .con_area .info_area li i {
+    font-size: 2rem;
+  }
+
+
+  #contact .con_area h4 {
+    font-size: 1.5rem;
+  }
+
+
 
 }
 
@@ -35,13 +171,51 @@
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
+@media screen and (max-width:425px) {
 
+  footer .footer_area {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .footer_area .white_pp {
+    width: 90%;
+    margin: 30px 0;
+  }
+
+  footer .footer_area .white_pp button {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  footer .footer_area .white_pp:nth-child(2) button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  footer .footer_area .sns i.xi-telegram {
+    margin-bottom: 20px;
+  }
 }
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
+  #home .main_area h2 {
+    font-size: 4rem;
+  }
 
+  #home .main_area .main_txt b {
+    font-size: 1.2rem;
+  }
+
+  #home .main_area .main_txt b br {
+    display: none;
+  }
+
+  #contact .con_area .con_left form input.send {
+    width: 50%;
+  }
 }
