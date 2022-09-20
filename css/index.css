@@ -56,7 +56,7 @@ h3 {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/intro3_bg.png")no-repeat center;
+  background: url("../img/intro3_bg.png")no-repeat bottom center;
 }
 #intro3 .intro3_wrap{
   width: 100%;
@@ -104,7 +104,7 @@ h3 {
   padding: 100px 0;
   text-align: center;
   position: relative;
-  background: #1f1f1f url("../img/roadmap_bg.png")no-repeat;
+  background: #1f1f1f url("../img/roadmap_bg.png")no-repeat bottom;
 }
 #roadmap .roadmap_wrap{
   width: 100%;
