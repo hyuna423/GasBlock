@@ -2,4 +2,16 @@
     a{text-decoration : none;}
     address{font-style:normal;}
 
+/* coin__> chart_data */
+    #coin .coin_area .chart_data ul li {
+        line-height: 1;
+        margin-top: 7%;
+        text-align: left;
+    }
 
+    @media screen and (max-width: 576px) {
+        #coin .coin_area .chart_data ul li {
+            font-size: 0.8rem;
+            line-height: 1.3; 
+        }
+    }

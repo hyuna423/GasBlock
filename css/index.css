@@ -1,17 +1,140 @@
-*{margin:0; padding:0; box-sizing:border-box;}
-    a{text-decoration : none;}
-    address{font-style:normal;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+a {
+  text-decoration: none;
+}
 
+address {
+  font-style: normal;
+}
 
-h3{
+h3 {
   font-size: 2.5em;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #E67927;
+  background: linear-gradient(to right, #FF005B, #FFE53B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width:1521px) {
+  .container {
+    max-width: 1521px;
+  }
 }
 
 
 
 
 /*헤더*/
+
+
+/* coin */
+#coin {
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+  background-color: #1F1F1F;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+}
+#coin::before {
+  content: '';
+  background: url(../img/coin_a.png) no-repeat;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-left: 50%;
+  z-index: 1;
+}
+
+#coin .coin_area .chart_cover {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #091728 0%, rgba(21, 31, 41, 0.802083) 48.96%, rgba(69, 64, 45, 0) 100%);
+  padding: 0 5%;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 1%;
+}
+
+#coin .coin_area .chart_cover .chart_txt {
+  width: 80%;
+  height: 5%;
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  margin-bottom: 5%;
+}
+
+/* 그래프랑 글 */
+#coin .coin_area .chart_cover .chart {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  margin: 7%;
+  padding: 3% 15%;
+}
+
+#coin .coin_area .chart_cover .chart .chart_graph {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 0px 10px #FF9B45);
+}
+#coin .coin_area .chart_cover .chart .chart_data {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-left: 15%;
+  position: relative;
+  z-index: 10;
+}
+
+/* 데이터 텍스트 */
+#coin .coin_area .chart_data ul li {
+  line-height: 4;
+  display: flex;
+  align-items: center;
+}
+
+#coin .coin_area .chart_data ul li span {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #FF1D57;
+  display: block;
+  margin-right: 20px;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(2) span {
+  background-color: #FF3753;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(3) span {
+  background-color: #FF564F;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(4) span {
+  background-color: #FF6E4C;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(5) span {
+  background-color: #FF9B45;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(6) span {
+  background-color: #FFE53B;
+}
