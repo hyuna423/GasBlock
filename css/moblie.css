@@ -410,6 +410,10 @@
 
 @media screen and (max-width:425px) {
 
+  #home .main_area h2 {
+    font-size: 4.5rem;
+}
+
   #intro1 {
     padding: 70px 0 250px;
   }
