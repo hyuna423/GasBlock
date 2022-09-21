@@ -56,16 +56,74 @@
     width: 90%;
   }
 
+  #intro1 {
+    padding: 100px 0 130px;
+  }
+
+  .intro1_img::after {
+    width: 70%;
+    height: 70%;
+    bottom: 0%;
+  }
+
+  .int1_cont_box {
+    width: 49%;
+    margin-bottom: 2%;
+  }
+
+  /*intro2*/
+
+  .int2_contents_wrap {
+    display: block;
+  }
+
+  .int2_blck_box {
+    text-align: center;
+  }
+
+  .int2_cont_left {
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+
+  .int2_cont_right {
+    width: 100%;
+  }
+
+  #coin .coin_area h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #coin .coin_area .chart_cover .chart .chart_graph {
+    width: 90%;
+    height: auto;}
+
+    #coin .coin_area .chart_cover .chart .chart_data {
+      color: #fff;
+      width: 80%;}
+
+  #coin .coin_area .chart_cover .chart {
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  #coin .coin_area .chart_cover .chart_txt {
+    width:90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box h4 {
+    padding-right: 10%;
+  }
+
   #contact .con_area .con_left {
     padding: 30px 40px;
   }
-
-}
-
-
-
-/*아이패드 (768px)*/
-@media screen and (max-width:991px) {
 
   #contact .con_area {
     flex-direction: column;
@@ -79,6 +137,80 @@
   #contact .con_area .con_right {
     width: 100%;
   }
+
+}
+
+
+
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  h3{
+    font-size: 2.3em;
+  }
+  #intro1 {
+    padding: 120px 0 500px;
+  }
+
+  .intro1_contents h4 {
+    margin-bottom: 6%;
+  }
+
+  .int1_cont_box p,
+  .intro1_contents h4 {
+    font-size: 0.9em;
+  }
+
+  .int1_cont_left {
+    width: 100%;
+  }
+
+
+  .intro1_img::after {
+    width: 100%;
+    height: 43%;
+
+  }
+
+  @keyframes move {
+    100% {
+      bottom: -1%;
+    }
+  }
+
+  /*intro2*/
+
+  .int2_cont_left b,
+  .int2_cont_left p {
+    font-size: 0.9em;
+  }
+
+  #roadmap .roadmap_wrap .roadmap_box {
+    display: block;
+  }
+
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+
+  #intro3 .intro3_wrap .int3_img img.web_img {
+    display: none;
+  }
+
+  #intro3 .intro3_wrap .int3_img img.m_img {
+    display: block;
+  }
+
+  #contact .con_area .con_left form input.send {
+    width: 50%;}
+
+    footer .footer_area .white_pp button {
+      width: 80%;
+      margin-bottom: 10px;
+
+
 }
 
 /*모바일*/
@@ -107,11 +239,41 @@
     margin-bottom: 5%;
   }
 
+
+  .int2_blck_box {
+    padding: 3% 1%;
+  }
+
+  #intro3 .intro3_wrap .intro3_contents .int3_cont_up,
+  #intro3 .intro3_wrap .intro3_contents .int3_cont_down {
+    display: block;
+    justify-content: center;
+  }
+
+  .int3_box {
+    width: 85%;
+    padding: 10%;
+    margin-top: 10%;
+    margin-left: 8%;
+  }
+
+
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
   #contact .con_area .info_area {
     justify-content: space-between;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
+
+  #contact .con_area .con_left ul li {
+    width: 100%;
+    text-align: center;
+}
 
   #contact .con_area .info_area li {
     margin-bottom: 10px;
@@ -133,7 +295,7 @@
     width: 100%;
     height: 60%;
     top: 60%;
-}
+  }
 
   #home .main_area .main_txt b {
     font-size: 1.3rem;
@@ -144,10 +306,81 @@
   }
 
 
+  #intro1 {
+    padding: 120px 0 250px;
+  }
+
+  .int1_cont_box_up {
+    display: block;
+  }
+
+  .int1_cont_box_down {
+    display: block;
+  }
+
+  .int1_cont_box {
+    width: 100%;
+  }
+
+  .int1_cont_box3,
+  .int1_cont_box4 {
+    margin-bottom: 4% !important;
+  }
+
+  .int1_cont_box {
+    margin-bottom: 4%;
+    padding: 8% 2%;
+  }
+
+
+  .intro1_img::after {
+    height: 23%;
+  }
+
+  .int1_cont_box_icon img {
+    max-width: 20%;
+  }
+
+
+  .intro1_contents h4 {
+    margin-bottom: 12%;
+  }
+
+
+  /*intro2*/
+
+  #intro2 {
+    padding: 80px 0;
+  }
+
+  .need {
+    display: block !important;
+  }
+
+  .int2_cont_left br {
+    display: none;
+  }
+
+  .int2_contents_wrap b {
+    display: inline-block;
+    margin-bottom: 7%;
+  }
+
+  #coin .coin_area h3 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+
+  #coin .coin_area .chart_cover .chart_txt p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
 
   #contact .con_area {
     width: 90%;
-  
+
   }
 
   #contact .con_area .con_left {
@@ -163,6 +396,10 @@
     font-size: 1.5rem;
   }
 
+  #contact .con_area .con_left form input.send {
+    width: 49%;
+  }
+
 
 
 }
@@ -172,6 +409,18 @@
 /*모바일3 갤럭시*/
 
 @media screen and (max-width:425px) {
+
+  #intro1 {
+    padding: 70px 0 250px;
+  }
+
+  #coin .coin_area .chart_cover .chart {
+    margin-top: 10%;
+  }
+
+  #coin .coin_area .chart_data ul li {
+    font-size: 0.9em;
+  }
 
   footer .footer_area {
     justify-content: space-between;
@@ -213,6 +462,14 @@
 
   #home .main_area .main_txt b br {
     display: none;
+  }
+
+  .int3_box {
+    padding: 15%;
+  }
+
+  #coin .coin_area .chart_cover .chart .chart_data {
+    margin-left: 0;
   }
 
   #contact .con_area .con_left form input.send {

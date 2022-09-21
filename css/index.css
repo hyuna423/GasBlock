@@ -17,7 +17,6 @@ body {
 
 a {
   text-decoration: none;
-  display:block;
 }
 
 address {
@@ -48,6 +47,7 @@ button:hover {
 
 button a {
   color: #fff;
+  display:block;
 }
 
 button:hover a {
@@ -601,6 +601,391 @@ input[type="checkbox"] {
   display: block;
 }
 
+
+
+/*intro1*/
+
+
+#intro1{
+  width: 100%;
+  background: url(../img/intro1_bg.png) no-repeat 0 0;
+  background-size: cover;
+  background-color: #1F1F1F;
+  position: relative;
+  padding: 120px 0 205px;
+}
+
+.intro1_img{
+  width: 100%;
+}
+
+.intro1_img::after{
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -5%;
+  content: "";
+  background: url(../img/int_1.png) no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  animation: move 1s 2s alternate infinite;
+} 
+
+@keyframes move{
+  100%{
+    bottom: -3%;
+  }
+}
+
+.intro1_wrap{
+  width: 100%;
+}
+
+.intro1_contents{
+  width: 100%;
+  position: relative;
+}
+
+.intro1_contents h4{
+  color: #fff;
+  margin-bottom: 4%;
+}
+
+.int1_cont_left{
+  width: 60%;
+}
+
+.int1_cont_box_wrap{
+  width: 100%;
+}
+
+.int1_cont_box_up{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.int1_cont_box{
+  background-color: rgba(61,56,82,.6);
+  width: 48%;
+  margin-bottom: 4%;
+  border-radius:20px;
+  text-align: center;
+  padding: 4% 2%;
+}
+
+.int1_cont_box p{
+  color: #fff;
+}
+
+.int1_cont_box3, .int1_cont_box4{
+  margin-bottom: 0 !important;
+}
+
+.int1_cont_box_icon{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.int1_cont_box_icon img{
+  max-width: 30%;
+}
+
+.int1_cont_box_down{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.int1_cont_right{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*intro2*/
+
+#intro2{
+  width: 100%;
+  padding: 100px;
+  background: url(../img/int2_bg.png) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro2_wrap{
+  width: 100%;
+}
+
+.int2_blck_box{
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  padding: 5%;
+}
+
+.int2_contents_wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.int2_cont_left{
+  width: 50%;
+  margin-top:6%;
+}
+
+.int2_cont_right{
+  width: 40%;
+}
+
+.int2_cont_right img{
+  max-width: 100%;
+}
+
+.int2_contents_wrap b, .int2_contents_wrap p{
+  color: #fff;
+}
+
+.need{
+  display: none !important;
+}
+
+/* Intro3 */
+#intro3{
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+#intro3 .intro3_bg{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#intro3 .intro3_bg::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/intro3_bg.png")no-repeat bottom center;
+}
+#intro3 .intro3_wrap{
+  width: 100%;
+}
+#intro3 .intro3_wrap h5{
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 3%;
+}
+#intro3 .intro3_wrap .intro3_contents{
+  max-width: 1029px;
+  margin: 0 auto 5%;
+  color: #fff;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_cont_up,#intro3 .intro3_wrap .intro3_contents .int3_cont_down{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.int3_box{
+  width: 45%;
+  padding: 6%;
+  background: radial-gradient(66.22% 687.85% at 50% 120%, #1F1F1F 0%, rgba(65, 61, 61, 0.87) 100%);
+  box-shadow: 0px 0px 20px rgba(193, 181, 181, 0.25);
+  position: relative;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_cont_up .int3_box p,#intro3 .intro3_wrap .intro3_contents .int3_cont_down .int3_box p{
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#intro3 .intro3_wrap .int3_img{
+  width: 100%;
+}
+#intro3 .intro3_wrap .int3_img img{
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+#intro3 .intro3_wrap .int3_img img.m_img{
+  display: none;
+  display: none;
+}
+
+
+
+
+/* coin */
+#coin {
+  width: 100%;
+  height: auto;
+  padding: 150px 0;
+  background-color: #1F1F1F;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#coin::before {
+  content: '';
+  background: url(../img/coin_a.png) no-repeat;
+  width: 1173px;
+  height: 860px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 디자인에서 background 딤은 섹션 전체를 차지하고 있었기 때문에 섹션을 기준으로 가상선택자를 만들어주는게 좋아요. */
+
+#coin::after{
+  content: '';
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(270deg, #091728 0%, rgba(21, 31, 41, 0.802083) 48.96%, rgba(69, 64, 45, 0) 100%);
+  opacity: .5;
+}
+
+#coin .coin_area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* background positon은 width, hegight는 px로 크기 정확하게 기재해주세요.
+position:absolute 사용후 위치 위,아래 좌,우 로 포지션의 위치를 지정해줍니다. 
+디자인에서 오른쪽 위였기 때문에 top, right로 위치 지정하면 되겠죠 ?
+z-index를 사용하면 섹션의 위에 올라올 수 있기때문에 순서를 지정할때는 z-index를 사용하기전에 
+안에 컨텐츠 안에 position:relative를 사용해서 우선순위를 올려줍니다.
+*/
+
+/* position:absolute는 되도록이면 별개의 속성에만 사용해주는게 좋아요. 컨텐츠 안에 사용할 경우 다른 섹션과 맞물리는 현상이 발생합니다. */
+
+#coin .coin_area .chart_cover .chart_txt {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  margin-bottom: 5%;
+}
+
+/* 그래프랑 글 */
+#coin .coin_area .chart_cover .chart {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+#coin .coin_area .chart_cover .chart .chart_graph {
+    width: 50%;
+    height: 100%;
+    filter: drop-shadow(0px 0px 10px #FF9B45);
+}
+
+#coin .coin_area .chart_cover .chart .chart_graph img{
+  max-width: 100%;
+}
+#coin .coin_area .chart_cover .chart .chart_data {
+  color: #fff;
+  width: 50%;
+  height: 100%;
+}
+
+/* flex는 전체 사이즈에서 가로 사이즈 절반씩만 줘도 가운데 정렬이 가능합니다 , 마진으로 안 밀어 내도 돼요 */
+
+/* 데이터 텍스트 */
+#coin .coin_area .chart_data ul li {
+  line-height: 4;
+  display: flex;
+  align-items: center;
+}
+
+#coin .coin_area .chart_data ul li span {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #FF1D57;
+  display: block;
+  margin-right: 20px;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(2) span {
+  background-color: #FF3753;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(3) span {
+  background-color: #FF564F;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(4) span {
+  background-color: #FF6E4C;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(5) span {
+  background-color: #FF9B45;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(6) span {
+  background-color: #FFE53B;
+}
+
+
+/* roadmap */
+#roadmap{
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  background: #1f1f1f url("../img/roadmap_bg.png")no-repeat bottom;
+}
+#roadmap .roadmap_wrap{
+  width: 100%;
+}
+#roadmap .roadmap_wrap .roadmap_box{
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box{
+  width: 30%;
+  height: 460px;
+  margin-top: 5%;
+  text-align: left;
+  border-radius: 0px 100px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 107, 199, 0.6) 100%);
+  box-shadow: 0 0 20px #29769E;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box h4{
+  padding: 15% 6% 10% 10%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+}
+#roadmap .roadmap_wrap .roadmap_box .rdm_box p{
+  padding: 0 5% 5% 10%;
+}
+
 /* contact */
 #contact {
   padding: 100px 0;
@@ -637,8 +1022,8 @@ input[type="checkbox"] {
 #contact .con_area .info_area {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   margin-top: 80px;
+  align-items: flex-start
 }
 
 #contact .con_area .info_area li i {
@@ -740,6 +1125,7 @@ input[type="checkbox"] {
   display: flex;
   max-width: 100%;
   padding: 80px;
+  margin: 0 auto;
 }
 
 
