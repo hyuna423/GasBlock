@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/moblie.css">
-  <link rel="stylesheet" href="css/index_eng.css">
 
   <!--favicon--->
   <link href="img/favicon.ico" rel="icon">
@@ -37,69 +36,352 @@
 
 <body>
 
-
   <header>
 
-    <div class="">
+    <div class="hd_all">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1><a href="index.html"><img src="img/gasblock_logo.png" alt="logo"></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_wrap strip colour-5">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#intro1" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="lansite"><a href="index_eng.html">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
       </nav>
 
 
-      <!--반응형-->
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
 
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
-      </div>
-
-      <nav class="">
-
+      <nav class="wrapper">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#intro1" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GasBlock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html" class="lansite">Eng <img src="img/wep_eng.png" alt=""></a></li>
 
         </ul>
 
       </nav>
-
-      <!--반응형 js-->
-      <script type="text/javascript">
-        $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
-          });
-        });
-
-      </script>
 
     </div>
 
   </header>
 
 
+  <main>
 
+
+    <section id="home">
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="main_area container">
+        <div class="main_txt">
+          <h2 class="text-flicker-in-glow">GasBlock</h2>
+          <b>블록체인을 통해 확보된 안전성,수익성을 통해<br>
+            셰일가스 글로벌 유통망을 혁신합니다.
+          </b>
+
+          <p>
+            가스 (GAS)와 블록체인(Blokchain)의 합성어로서 블록체인의 투명성, 안전성,<br>
+            효율성을 셰일가스의 채취와 상업화 과정 전반에 도입하여, 가스 유통 및 채취의 <br>
+            효율성과 수익성을 극대화 할 목표를 가지고 있습니다.
+          </p>
+
+        </div>
+
+        <div class="down_area">
+          <button>
+            <a href="GasBlock white paper Ver.01- Kor.pdf"> WhitePaper<i class="xi-paper"></i></a>
+          </button>
+          <button class="btn_wallet"><a href="https://gasblock.net/"> Wallet<i class="xi-wallet"></i></a></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro1">
+      <div class="intro1_img"></div>
+
+      <div class="intro1_wrap container">
+
+        <div class="intro1_contents">
+          <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom">Intro.</h3>
+          <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom">가스블록이 지향하는 목표는 이러합니다.</h4>
+
+          <div class="int1_cont_left">
+
+            <div class="int1_cont_box_wrap">
+              <div class="int1_cont_box_up">
+
+                <div class="int1_cont_box int1_cont_box1" data-aos="fade-up">
+                  <div class="int1_cont_box_icon"><img src="img/icon1.png" alt="icon1"></div>
+
+                  <p>가스 채굴 후보지역의 정확한<br>
+                    경제성 평가</p>
+                </div>
+
+                <div class="int1_cont_box int1_cont_box2" data-aos="fade-up">
+                  <div class="int1_cont_box_icon"><img src="img/icon2.png" alt="icon2"></div>
+
+                  <p>
+                    채굴과정에서의 효율성<br>
+                    및 안전성 평가 및 관리
+                  </p>
+                </div>
+              </div><!-- int1_cont_box_up -->
+
+
+
+              <div class="int1_cont_box_down">
+                <div class="int1_cont_box int1_cont_box3" data-aos="fade-up">
+                  <div class="int1_cont_box_icon"><img src="img/icon3.png" alt="icon3"></div>
+
+                  <p>가스 정제 및 상품화 과정에서의<br>
+                    위험요소 제거 및 경제성 증대
+                  </p>
+                </div>
+
+                <div class="int1_cont_box int1_cont_box4" data-aos="fade-up">
+                  <div class="int1_cont_box_icon"><img src="img/icon4.png" alt="icon4"></div>
+
+                  <p>
+                    원가분석 및 국가별/기관별<br>
+                    판매가격에 대한 선물/현물 가격<br>설정 후 높은 판매 마진 확보
+                  </p>
+                </div>
+              </div><!-- int1_cont_box_down -->
+
+            </div><!-- int1_cont_box_wrap -->
+          </div> <!-- int1_cont_left -->
+
+
+        </div><!-- intro1_contents -->
+      </div><!-- intro1_wrap -->
+    </section><!-- intro1 -->
+
+
+    <section id="intro2">
+      <div class="intro2_wrap container">
+        <div class="int2_blck_box">
+          <div class="int2_contents_wrap">
+            <div class="int2_cont_left" data-aos="fade-up" data-aos-duration="3000">
+              <h3>GasBlock<br>
+                How Blockchain was used?</h3>
+
+              <b>블록체인의 투명성, 효율성은 <br class="need"> 가스 채취 산업의 틀을 바꿀 수 있습니다</b>
+              <br><br><br>
+              <p>지금까지 수십억건의 거래를 통해 안전성, 비용효율성,<br>
+                투명성이 검증 된 이더리움의 메인 솔루션 ERC20. <br>
+                <br>
+                안전성에 있어 조금의 오차도 허락하지 않는 셰일가스 채취,<br>
+                경제성 판단을 위해 약간의 데이터 오차도 용인되지 않는 시추사이트 분석.<br>
+                <br>
+                모두 블록체인을 통해 개선할 수 있는 분야입니다.
+              </p>
+            </div><!-- int2_cont_left -->
+
+            <div class="int2_cont_right" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><img
+                src="img/int2_img.png" alt="int2_img"></div>
+          </div><!-- int2_contents_wrap -->
+
+        </div><!-- int2_contents_box -->
+
+      </div><!-- intro2_wrap -->
+    </section><!-- intro2 -->
+
+
+    
+    <section id="intro3">
+      <div class="intro3_bg"></div>
+      <div class="intro3_wrap container">
+        <h3 data-aos="fade-up" 
+            data-aos-anchor-placement="center-bottom">가스블록 (GasBlock) 생태계를 이끄는 구성요소</h3>
+        <h5 data-aos="fade-up" 
+            data-aos-anchor-placement="center-bottom">각 구성요소들에게 최적의 수익과 사업안전성을 제공합니다</h5>
+        <div class="intro3_contents"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+          <div class="int3_cont_up">
+            <div class="int3_box">
+              <p>가스 채굴 후보지 경제성 평가 기관</p>
+            </div>
+            <div class="int3_box">
+              <p>대규모 채취 가스 정제 및<br> 
+                상품화 기업 및 생산공장</p>
+            </div>
+          </div>
+          <div class="int3_cont_down">
+            <div class="int3_box">
+              <p>채굴 및 채취 전문 기업 및 장비공급업체</p>
+            </div>
+            <div class="int3_box">
+              <p>글로벌 공급 관리 및 마케팅 업체</p>
+            </div>
+          </div>
+        </div>
+        <div class="int3_img"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="img/img4_sb 1.png" alt="intro3_img" class="web_img">
+            <img src="img/img4_m 1.png" alt="intro3_img" class="m_img">
+        </div>
+      </div>
+    </section>
+
+    <section id="coin"><!-- coin -->
+      <div class="coin_area container" data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <h3>가스블록(GasBlock) Coin 자금배분계획</h3>
+  
+        <div class="chart_cover">
+          
+          <div class="chart_txt">
+                <p> <b> Coin Name </b><br> GasBlock </p>
+                <p> <b>Symbol</b> <br> GSBL </p>
+                <p> <b>Protocol</b> <br> ERC20 </p>
+                <p> <b>Total Supply </b><br> 300,000,000 </p>
+          </div>
+  
+          <div class="chart">
+              <div class="chart_graph">
+                <img src="img/coin.png" alt="coin_graph">
+              </div>
+              
+              <div class="chart_data">
+                <ul>
+                  <li><span></span>코인세일 20%</li>
+                  <li><span></span>국제법무비용 20%</li>
+                  <li><span></span>가스 채취 사전 조사 경비 20%</li>
+                  <li><span></span>플랫폼 제작 및 DB구축 15%</li>
+                  <li><span></span>국제 정보 이용 라이선스 구입 20%</li>
+                  <li><span></span>사업 운영비용 5%</li>
+                </ul>
+              </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section><!-- coin -->
+
+    
+    <section id="roadmap">
+      <div class="roadmap_wrap container">
+        <h3 data-aos="fade-up" 
+            data-aos-anchor-placement="center-bottom">가스블록(GasBlock) Roadmap</h3>
+        <div class="roadmap_box">
+          <div class="rdm_box" 
+              data-aos="flip-left" 
+              data-aos-easing="ease-out-cubic" 
+              data-aos-duration="2000">
+            <h4>2021</h4>
+            <p>Q3 GasBlock [가스블록] 설립</p>
+            <p>Q4 북미 셰일 가스 유정 기반<br>
+              프로토타입 설계시작</p>
+          </div>
+          <div class="rdm_box"
+              data-aos="flip-left" 
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+            <h4>2022</h4>
+            <p>Q1 플랫폼 기본설계</p>
+            <p>Q2 신규 유정 평가 기준 수립</p>
+            <p>Q3 거래 및 보관기능<br> 
+              web지갑 출시 및 글로벌상장</p>
+            <p>Q4 ERP소프트 웨어 고도화를<br>
+              위한 시장 조사 시작</p>
+          </div>
+          <div class="rdm_box"
+              data-aos="flip-left" 
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+            <h4>2023</h4>
+            <p>Q1 아시아 지역 및 북미<br>
+              상위권 거래소 상장 확대</p>
+            <p>Q2 고도화 플랫폼 설계완료</p>
+            <p>Q3 셰일가스 위험요소<br> 
+              평가기준 추가 확립</p>
+            <p>Q4 북미 지역 거래소로 상장 확대</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="con_area  container" data-aos="fade-right">
+        <div class="con_left">
+          <h4>Get In Touch With Us</h4>
+          <ul class="info_area">
+            <li>
+              <i class="xi-network-company"></i>
+              <p>화성시 반송동 91-2</p>
+            </li>
+            <li>
+              <i class="xi-call"></i>
+              <p>070-8018-3435</p>
+            </li>
+
+            <li>
+              <i class="xi-profile-o"></i>
+              <p>이윤아</p>
+            </li>
+          </ul>
+
+          <h5>Send messege</h5>
+          <form class="gform" action="" data-email="contact@gasblock.net" method="">
+            <input type="email" value placeholder="E-mail" class="email" required style="color: #fff;">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" value="SEND" class="send">
+          </form>
+        </div>
+        <div class="con_right">
+          <img src="img/gasblock_logoww.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_area container">
+      <h1><img src="img/gasblock_logo.png" alt="logo"></h1>
+      <div class="white_pp">
+        <h5>Whitepaper</h5>
+        <button><a href="GasBlock white paper Ver.01- Kor.pdf">Ko.ver</a> </button>
+        <button><a href="GasBlock white paper Ver.01- Eng.pdf">Eng.ver</a></button>
+      </div>
+      <div class="sns">
+        <h5>SNS</h5>
+        <a href="https://t.me/gasblock_official"><i class="xi-telegram"></i></a>
+        <a href="https://open.kakao.com/o/sK0wOVCe"><i class="xi-kakaotalk"></i></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
